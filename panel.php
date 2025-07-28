@@ -30,7 +30,7 @@ if (isset($_POST['accion'])) {
 <body>
 <h2>Nuevo Proyecto</h2>
 <form method="post">
-  <input type="hidden" name="accion" value="proyecto">
+  <input type="hidden" name="accion" value="proyecto"> // Tilde en "Acción"!
   Nombre: <input name="nombre"><br>
   Descripción: <input name="descripcion"><br>
   Presupuesto: <input name="presupuesto" type="number"><br>
@@ -44,8 +44,8 @@ if (isset($_POST['accion'])) {
   <input type="hidden" name="accion" value="donante">
   Nombre: <input name="nombre"><br>
   Email: <input name="email"><br>
-  Dirección: <input name="direccion"><br>
-  Teléfono: <input name="telefono"><br>
+  Dirección: <input name="direccion"><br> // Te falto tilde aquí.
+  Teléfono: <input name="telefono"><br> // Aquí también te falto tilde!
   <button>Guardar donante</button>
 </form>
 
